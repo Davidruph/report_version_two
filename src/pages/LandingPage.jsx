@@ -1,5 +1,13 @@
+import Footer from "./Footer";
+import Menu from "./Menu";
+
 const LandingPage = () => {
-  return <div className="bg-red-600 text-white">Landing Page 2</div>;
+  return (
+    <>
+      <Menu />
+      <Footer />
+    </>
+  );
 };
 
 export default LandingPage;
