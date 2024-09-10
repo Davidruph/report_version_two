@@ -13,6 +13,11 @@
   border-radius: 8px;
   background-color: #0c172c;
 }
+.hero-btn {
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #0c172c;
+}
 .menu-links {
   width: auto;
   height: 60px;
@@ -82,4 +87,44 @@
   line-height: 28px;
   text-align: center;
   color: #000;
+}
+.hero-section {
+  background-image: url("./assets//hero.svg"),
+    linear-gradient(
+      180deg,
+      rgba(16, 128, 0, 0.2) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-caption {
+  font-family: Rubik;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: center;
+  color: #2c1250;
+}
+.hero-caption-spotlight {
+  font-family: Rubik;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: center;
+  background: linear-gradient(
+    90.62deg,
+    #40ba0f -4.3%,
+    #66d855 28.48%,
+    #a3ee5b 47.64%,
+    #188300 93.03%
+  );
+  -webkit-background-clip: text; /* For Chrome, Safari */
+  background-clip: text; /* Standard syntax */
+  color: transparent; /* Ensures text color is not visible */
+}
+.hero-caption-text {
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
 }

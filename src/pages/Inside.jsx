@@ -15,12 +15,12 @@ const Inside = () => {
         <p className="why-choose-us pb-12">
           Take a quick glimpse into our Market Report
         </p>
-        <div className="flex flex-col md:flex-row w-full gap-5 pb-10">
-          <div className="flex flex-col justify-center gap-2">
+        <div className="flex flex-col md:flex-row w-full gap-5 pb-10 justify-center items-center">
+          <div className="flex flex-col justify-center gap-3">
             <div className="reason-card border-0 flex flex-col justify-center items-center">
               <img src={inside1} alt="" />
             </div>
-            <p className="reason-card-text text-[16px] md:text-[18px]">
+            <p className="reason-card-text text-[16px] md:text-[18px] pt-3">
               Focus on Price trends in a specific region
             </p>
           </div>
@@ -29,7 +29,7 @@ const Inside = () => {
             <div className="reason-card border-0 flex flex-col justify-center items-center">
               <img src={inside2} alt="" />
             </div>
-            <p className="reason-card-text text-[16px] md:text-[18px]">
+            <p className="reason-card-text text-[16px] md:text-[18px] pt-3">
               Highlighting cost changes in essential goods
             </p>
           </div>
@@ -38,7 +38,7 @@ const Inside = () => {
             <div className="reason-card border-0 flex flex-col justify-center items-center">
               <img src={inside3} alt="" />
             </div>
-            <p className="reason-card-text text-[16px] md:text-[18px]">
+            <p className="reason-card-text text-[16px] md:text-[18px] pt-3">
               Predictive analytics for future market shifts
             </p>
           </div>

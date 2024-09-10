@@ -13,7 +13,7 @@ const Reasons = () => {
           Why Choose our Reports?
         </p>
         <p className="why-choose-us pb-12">Why choose us?</p>
-        <div className="flex flex-col md:flex-row w-full gap-5 pb-10">
+        <div className="flex flex-col md:flex-row w-full justify-center items-center gap-5 pb-10">
           <div className="reason-card flex flex-col justify-center items-center">
             <img src={reason1} alt="" />
             <p className="reason-card-text">Comprehensive Market Analysis</p>
